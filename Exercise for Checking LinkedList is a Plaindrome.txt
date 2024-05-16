@@ -1,0 +1,18 @@
+Find whether a given LinkedList is PALINDROME or not?
+
+SinglyLinkedList:
+
+Not a Palindrome
+Node [element=Bharath, next=Node [element=Dilip, next=Node [element=Rajesh, next=Node [element=Nithin, next=null]]]] 
+
+Is a Palindrome
+Node [element=Bharath, next=Node [element=Dilip, next=Node [element=Dilip, next=Node [element=Bharath, next=null]]]]
+
+
+DoublyLinkedList:
+
+Not a Palindrome:
+DoublyLinkedList [head=DoublyNode [previous=null, element=null], tail=DoublyNode [previous=DoublyNode [previous=DoublyNode [previous=DoublyNode [previous=DoublyNode [previous=DoublyNode [previous=null, element=null], element=Stevan], element=Kiran], element=Dilip], element=Kavya], element=null], size=4]
+
+Is a Palindrome
+DoublyLinkedList [head=DoublyNode [previous=null, element=null], tail=DoublyNode [previous=DoublyNode [previous=DoublyNode [previous=DoublyNode [previous=DoublyNode [previous=DoublyNode [previous=null, element=null], element=Kavya], element=Dilip], element=Dilip], element=Kavya], element=null], size=4]
